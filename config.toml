@@ -1,0 +1,13 @@
+baseurl = "https://jj-coding-emporium.github.io/"
+title = "Coding Emporium"
+author = "J & J"
+canonifyurls = true
+languagecode = "en"
+theme = "black-and-light"
+
+pygmentsstyle       = "bw"
+pygmentscodefences  = true
+
+[params]
+  sitename = "Coding Emporium"
+  disableWebFonts = false
