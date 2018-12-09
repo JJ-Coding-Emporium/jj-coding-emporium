@@ -2,6 +2,3 @@
 	path = public
 	url = https://github.com/JJ-Coding-Emporium/jj-coding-emporium.git
 	branch = master
-[submodule "jj-coding-emporium.github.io"]
-	path = jj-coding-emporium.github.io
-	url = https://github.com/JJ-Coding-Emporium/jj-coding-emporium.github.io.git
