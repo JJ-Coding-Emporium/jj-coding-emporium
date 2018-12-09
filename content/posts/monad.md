@@ -5,5 +5,9 @@ draft: true
 js: []
 ---
 
-# What the heck are Monads?
-Hello
+*Disclaimer: I don't understand monads. Which is why I'm blogging about them - perhaps I'll understand them by the time I'm done. And perhaps you will too!*
+
+The humble monad, a living legend of confusion. 
+
+{{< tweet 992773186239516677 >}}
+
