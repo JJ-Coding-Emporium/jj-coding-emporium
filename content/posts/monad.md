@@ -29,7 +29,7 @@ The problem with IO is that it is, by its nature, impure. Imagine calling a sync
 
 There's no telling what `contents` will be. The file could have changed, it could not exist, etc. 
 
- They realized that monads provide an elegant and efficient way to solve the thorny problem of IO for a pure functional programming language.
+And so, for the longest time, Haskell did not have IO. The designers were determined to keep the language pure, if not simply for dogmatic reasons, but to preserve its *laziness*. 
 
 
 
