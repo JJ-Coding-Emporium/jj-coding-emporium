@@ -17,7 +17,7 @@
       <pubDate>Tue, 27 Nov 2018 08:13:10 -0800</pubDate>
       
       <guid>https://jj-coding-emporium.github.io/posts/concurrency-go-vs-node/</guid>
-      <description>Test.
+      <description>Test2.
 Go 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31  package main import ( &amp;#34;io/ioutil&amp;#34; &amp;#34;log&amp;#34; &amp;#34;net/http&amp;#34; &amp;#34;github.com/gorilla/mux&amp;#34; ) func getUser(username string) string { response, _ := http.Get(&amp;#34;https://api.github.com/users/&amp;#34; + username) responseData, _ := ioutil.ReadAll(response.Body) userData := string(responseData) return userData } func GithubHandler(w http.ResponseWriter, req *http.</description>
     </item>
     
