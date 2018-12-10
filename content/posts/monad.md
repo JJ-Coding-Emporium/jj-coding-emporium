@@ -2,6 +2,7 @@
 title: "Monad"
 date: 2018-12-07T19:40:26-08:00
 draft: true
+author: ["Justin Lee"]
 js: []
 ---
 
@@ -22,14 +23,14 @@ function sumArray (arr) {
 
 The function `sumArray` is pure, since for any given input, it'll always return the same output, but its implementation is impure, as it changes (mutates) the variables `sum` and `i` inside the for loop. In fact, pure functional languages don't have variables or loops of any kind. 
 
-The problem with IO is that it is, by its nature, impure. Imagine calling a synchronous function `readIO` that takes a filename as input.
+The problem with IO is that it is, by its nature, impure. Imagine calling a synchronous function `readFile` that takes a filename as input.
 {{< highlight javascript "linenos=table,linenostart=0" >}}
-  const contents = readIO('name-of-file.txt')
+  const contents = readFile('path-to-file')
 {{< / highlight >}}
 
 There's no telling what `contents` will be. The file could have changed, it could not exist, etc. 
 
-And so, for the longest time, Haskell did not have IO. The designers were determined to keep the language pure, if not simply for dogmatic reasons, but to preserve its *laziness*. 
+And so, for the longest time, Haskell did not have IO. The designers were determined to keep the language pure, if not simply for dogmatic reasons, but to preserve its [*laziness*](https://wiki.haskell.org/Lazy_evaluation). 
 
 
 
