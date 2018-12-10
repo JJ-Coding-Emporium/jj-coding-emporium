@@ -5,6 +5,9 @@
     {{ range .Pages }}
       <li>
         <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        {{- range .Params.author }}
+          <div>By {{ . }}</div>
+        {{- end }}
         <div id=date>
           <time>{{ .Date.Format (.Site.Params.dateform | default "January 2006") }}</time>
         </div>
