@@ -5,9 +5,10 @@ canonifyurls = true
 languagecode = "en"
 theme = "black-and-light"
 
-pygmentsstyle       = "bw"
+pygmentsstyle       = "colorful"
 pygmentscodefences  = true
 
 [params]
   sitename = "Coding Emporium"
   disableWebFonts = false
+  description = "Coding Blog, specializing in JavaScript and Go."
