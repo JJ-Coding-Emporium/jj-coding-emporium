@@ -1,5 +1,13 @@
 #!/bin/bash
 
+# Check that script is being run on master branch
+BRANCH=$(git rev-parse --abbrev-ref HEAD)
+if [[ "$BRANCH" != "master" ]]; then
+  echo 'Deployment only allowed on master branch';
+  exit 1;
+fi
+
+# Require a commit message
 if [ $# -eq 0 ]
   then
     echo "Commit message required"
