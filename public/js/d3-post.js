@@ -1,2 +1,4 @@
-d3.select("body").transition()
-  .style("background-color", "black");
+document.addEventListener("DOMContentLoaded", function() {
+  d3.select("body").transition()
+    .style("background-color", "black");
+})
