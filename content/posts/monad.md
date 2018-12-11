@@ -34,11 +34,20 @@ And so, for the longest time, Haskell did not have IO. The designers were determ
 
 The utility of a language that lacts the ability to interact with the outside world in any way is limited, but without a practical way to perform pure IO, Haskell remained in the confines of the ivory towers. 
 
-That is, until the monad was discovered. 
-
-With monads, it became possible to preserve the purity of Haskell while allowing for side effects. 
+That is, until the designers of Haskell realized that the monad solves the problem of pure IO. 
 
 ## So what the heck is a monad? 
+> A monad is just a monoid in the category of endofunctors, what's the problem? 
+
+I've read them being described as [burritos](https://blog.plover.com/prog/burritos.html) and [Lannisters](https://www.snoyman.com/blog/2016/09/monads-are-like-lannisters), but I'm not convinced that these analogies are helpful. 
+
+As a quick aside, Philip Wadler, the computer scientist who realized the monads could be 
+
+Let's consider an example 
+
+### The Maybe Monad
+return :: a -> Maybe a
+>>=    :: Maybe a -> (a -> Maybe b) -> Maybe b
 
 
 
