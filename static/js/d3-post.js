@@ -87,6 +87,8 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   const chart = barChartFactory({
+    width: 700,
+    height: 500,
     chartID: '#chart',
     data
   })
