@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
     left: 60
   }
 
-  const width = 960 - margin.left - margin.right
+  const width = 700  - margin.left - margin.right
   const height = 500 - margin.top - margin.bottom
 
   const x = d3.scaleBand()
