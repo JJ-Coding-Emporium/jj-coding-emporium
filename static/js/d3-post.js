@@ -62,8 +62,16 @@ document.addEventListener('DOMContentLoaded', function () {
     .enter()
     .append('rect')
     .attr('class', 'bar')
-    .attr('x', x => x(x.letter))
+    .attr('x', d => x(d.letter))
     .attr('width', x.bandwidth())
-    .attr('y', x => y(x.frequency))
-    .attr('height', x => height - y(x.frequency))
+    .attr('y', d => y(d.frequency))
+    .attr('height', d => height - y(d.frequency))
+
+  svg.append('g')
+    .attr('transform', `translate(0,' ${height}')`)
+    .call(d3.axisBottom(x))
+
+  // add the y Axis
+  svg.append('g')
+    .call(d3.axisLeft(y))
 })
