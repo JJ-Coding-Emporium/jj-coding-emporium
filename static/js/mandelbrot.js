@@ -25,5 +25,14 @@ function draw() {
 }
 
 function mandelbrot() {
-	return;
+	const max_iterations = 100
+
+	// let z = 0
+	// for (let i = 0; i < max_iterations; i++) {
+	// 	z = pow(z, 2) + a
+	// 	if abs(z) > 2: 
+	// 		return i
+	// }
+
+	// return max_iterations
 }
