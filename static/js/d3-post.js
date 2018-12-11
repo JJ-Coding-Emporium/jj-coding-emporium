@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const margin = {
     top: 15,
     right: 25,
-    bottom: 15,
+    bottom: 25,
     left: 60
   }
 
@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function () {
     .attr('height', d => height - y(d.frequency))
 
   svg.append('g')
-    .attr('transform', `translate(0,' ${height}')`)
+    .attr('transform', `translate(0, ${height})`)
     .call(d3.axisBottom(x))
 
   // add the y Axis
