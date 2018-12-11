@@ -41,9 +41,9 @@ That is, until the designers of Haskell realized that the monad solves the probl
 
 I've read them being described as [burritos](https://blog.plover.com/prog/burritos.html) and [Lannisters](https://www.snoyman.com/blog/2016/09/monads-are-like-lannisters), but I'm not convinced that these analogies are helpful. 
 
-As a quick aside, Philip Wadler, the computer scientist who realized the monads could be 
+As a quick aside, Philip Wadler, the computer scientist who realized the monads, originally discovered and studied by category theorists, could be applied to programming languages, makes the fascinating point that ideas that are found more than once independently are discovered, not invented. This tells us that monads, like the laws of logic, are discovered. He makes the further claim that the way we feel is different using an invented language from a language that was discovered. The core of functional languages is built on Lambda calculus, which was discovered. 
 
-Let's consider an example 
+
 
 ### The Maybe Monad
 return :: a -> Maybe a
