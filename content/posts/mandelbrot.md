@@ -10,6 +10,6 @@ Something here. Anything at all please
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/5.4.0/math.min.js"></script>
 
 <body onload="draw();">
-	<canvas id="myCanvas" width="150" height="150" style="border:1px solid #000000;">
+	<canvas id="myCanvas" width="500" height="500" style="border:1px solid #000000;">
 	</canvas>
 </body>
