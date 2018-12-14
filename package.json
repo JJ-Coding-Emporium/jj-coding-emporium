@@ -1,0 +1,22 @@
+{
+  "name": "jj-coding-emporium",
+  "version": "1.0.0",
+  "description": "[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JJ-Coding-Emporium/jj-coding-emporium.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JJ-Coding-Emporium/jj-coding-emporium/issues"
+  },
+  "homepage": "https://github.com/JJ-Coding-Emporium/jj-coding-emporium#readme",
+  "dependencies": {
+    "webpack": "^4.27.1"
+  }
+}
