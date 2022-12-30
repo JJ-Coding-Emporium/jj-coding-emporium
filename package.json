@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/JJ-Coding-Emporium/jj-coding-emporium#readme",
   "dependencies": {
-    "webpack": "^4.27.1"
+    "webpack": "^5.75.0"
   }
 }
